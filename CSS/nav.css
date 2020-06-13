@@ -1,0 +1,38 @@
+
+.bg-green {
+    background-color: #4D6737; 
+}
+
+
+.text-nav {
+    font-size: larger;
+    font-family: 'Catamaran', sans-serif;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.img-banner {
+    height: 64vh;
+    object-fit: cover;
+    object-position: 0 46%;
+    width: 100vw;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 159px;
+    left: 20px;
+    top: -3px;
+}
+
+@media (max-width: 991px){
+
+    .logo {
+        margin-left: 200px;
+    }  
+}
+    
